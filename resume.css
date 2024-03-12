@@ -1,0 +1,132 @@
+body {
+    padding-left: 100px;
+    padding-right: 100px 
+}
+
+.title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+}
+
+.title img {
+    flex-grow: 0; /* To prevent the image from growing */
+    border-radius: 50%;
+}
+
+.tname {
+    flex-grow: 1;
+    text-align: center; /* Apply text alignment to both .tname and .contact */
+    font-size: xx-large;
+    font-style: oblique;
+}
+
+.contact {
+    flex-grow: 1;
+    text-align: right; 
+}
+
+
+.id_date {
+    display: flex;
+    justify-content: space-between;
+}
+
+.ids {
+    font-size: 18px;
+    font-weight: bold;
+    font-style: oblique;
+}
+
+.id, .ids {
+    margin: 0;
+}
+
+.designation {
+    font-size: small;
+    font-style: italic;
+    margin-top: 0;
+    margin-bottom: 2px;
+}
+
+.date {
+    text-align: right;
+    margin: 0;
+    font-size: small;
+}
+
+.course {
+    margin-top: 0px;
+    font-size: 13px;
+}
+
+.rcourse {
+    margin-bottom: 0px;
+    margin-top: 0px;
+    
+}
+
+.exp_1, .exp_2, .exp_3, .exp_4 {
+    margin-bottom: 10px;
+    margin-top: 5px;
+}
+
+ul {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+p {
+    margin-top: 0px;
+    margin-bottom: 0px;   
+}
+
+
+hr {
+    border: 0.5px solid black;
+}
+
+.line {
+    border: 0.5px dashed pink;
+}
+
+.education, .experience, .id_date, .skills, .achievements, .projects{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.id, .ids {
+    width: 70%;
+    margin: 0px;
+}
+
+
+.date {
+    width: 30%;
+}
+
+.section_headers {
+    margin-top: 0px;
+    width: 15%;
+    font-size: 20px;
+    font-style: oblique;
+    color: blue;
+}
+
+.edr_section, .expr_section, .skillsr_section, .achievementsr_section,  .projectsr_section{
+    width: 85%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
